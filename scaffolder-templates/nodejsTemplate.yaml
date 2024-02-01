@@ -23,6 +23,19 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
+            
+    - title: Fill Some More Details
+      required:
+        - OrganizationName
+      properties:
+        OrganizationName:
+          title: Organization Name
+          type: string
+          description: Enter the Name of your Organization
+          ui:autofocus: true
+          ui:options:
+            rows: 5
+            
     - title: Choose a location
       required:
         - repoUrl
