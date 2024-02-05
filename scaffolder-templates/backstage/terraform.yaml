@@ -8,7 +8,7 @@ metadata:
     - s3
 spec:
   owner: my-awesome-team
-  type: template
+  type: service
 
   parameters:
     - title: Enter the Resource Identification Name
