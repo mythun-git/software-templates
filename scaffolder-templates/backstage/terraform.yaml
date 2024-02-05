@@ -41,7 +41,7 @@ spec:
         bucketRegion:
           title: Bucket Region
           type: string
-          description: Enter the Region for the bucket (Refer AWS Regions)
+          description: Select the Region
           enum:
             - us-east-1
             - us-east-2
