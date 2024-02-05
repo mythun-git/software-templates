@@ -27,7 +27,7 @@ spec:
           ui:options:
             rows: 5
             
-    - title: Fill in More Details
+    - title: Fill the S3 Bucket Details
       required:
         - bucketName
       properties:
