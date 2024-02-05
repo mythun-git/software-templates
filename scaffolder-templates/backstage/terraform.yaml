@@ -42,9 +42,9 @@ spec:
           title: Bucket Region
           type: string
           description: Enter the Region for the bucket (Refer AWS Regions)
-          ui:autofocus: true
-          ui:options:
-            rows: 5
+          enum:
+            - us-east-1
+            - us-east-2
     
             
     - title: Choose a location
