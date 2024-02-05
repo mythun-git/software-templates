@@ -34,6 +34,14 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
+        bucketRegion:
+          title: Bucket Region
+          type: string
+          description: Enter the Region for the bucket (Refer AWS Regions)
+          ui:autofocus: true
+          ui:options:
+            rows: 5
+    
             
     - title: Choose a location
       required:
