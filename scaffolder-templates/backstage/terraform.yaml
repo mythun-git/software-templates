@@ -37,7 +37,7 @@ spec:
         bucketRegion:
           title: AWS Region
           type: string
-          description: The AWS region where the cluster will be deployed
+          description: The AWS region where the S3 will be deployed
           enum:
             - us-east-1
             - us-east-2
