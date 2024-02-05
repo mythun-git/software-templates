@@ -71,7 +71,6 @@ spec:
           enum:
             - apply
             - destroy
-
             
     - title: Choose a location
       required:
