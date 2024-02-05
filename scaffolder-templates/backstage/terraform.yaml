@@ -41,7 +41,33 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
-    
+            
+    - title: Basic EKS Cluster Configuration
+      required:
+        - clusterName
+        - region
+        - action
+      properties:
+        clusterName:
+          title: Cluster Name
+          type: string
+          description: The name of your EKS cluster
+          ui:autofocus: true
+        region:
+          title: AWS Region
+          type: string
+          description: The AWS region where the cluster will be deployed
+          enum:
+            - us-east-1
+            - us-west-2
+        action:
+          title: Action
+          type: string
+          description: Action to perform (apply/destroy)
+          enum:
+            - apply
+            - destroy
+ 
             
     - title: Choose a location
       required:
