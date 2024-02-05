@@ -24,7 +24,7 @@ spec:
           ui:options:
             rows: 5
             
-    - title: Enter the Bucket Details
+    - title: Fill in Some More Details
       required:
         - OrganizationName
       properties:
